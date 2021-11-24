@@ -3,8 +3,7 @@
 The code is a C++ implementation of a Feedforwad Neural Network with one hidden layer running on a GPU deploying OpenCL and exploting clBlas to obtain higher performance in terms of time. Its initial purposes were: 
 1. classyfing digits from the MNIST dataset
 2. compare the performances, in terms of time, of a neural network able to run on a GPU exploiting OpenCL and 
-   clBlas against a neural network running on a CPU and exploiting cBlas (whose implementation can be found in my other repository
-   https://github.com/elenina5/NeuralNetwork-cBlas).
+   clBlas against a neural network running on a CPU and exploiting cBlas.
 
 The neural network takes as input the images of the MNIST dataset, applyes a tanh non linearity and finally classifies them deploying 
 the softmax non linearity. The neural network has been trained with the cross-entropy loss and deploying the stocastic gradient descent.
